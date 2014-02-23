@@ -1,0 +1,29 @@
+Paso 1:
+
+Crear el script
+
+Nombre de archivo: hola
+
+print "Hola"
+
+Paso 2:
+
+Colocar un "shebang" en la primera línea indicando que se evalue
+con el intérprete de Python
+
+Nombre de archivo: hola
+
+#!/usr/bin/env python
+print "Hola"
+
+Paso 3:
+
+Dar permiso de ejecución al script
+
+$ chmod + x hola
+
+Paso 4:
+
+Ejecutar el script
+
+./hola
