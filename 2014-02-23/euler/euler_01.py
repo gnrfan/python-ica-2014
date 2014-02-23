@@ -12,7 +12,7 @@ def es_multiplo(a, b):
 
 def problema_01():
     acum = 0
-    for n in range(INITIAL_VALUE, MAX_VALUE + 1):
+    for n in range(INITIAL_VALUE, MAX_VALUE):
         # print "%d es múltiplo de 3: %s" % ( n, es_multiplo(n, 3) )
         # print "%d es múltiplo de 5: %s" % ( n, es_multiplo(n, 5) )
         if es_multiplo(n, 3) or es_multiplo(n, 5):
